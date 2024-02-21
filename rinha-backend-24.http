@@ -1,0 +1,30 @@
+@rinha_backend_24_HostAddress = https://localhost:7091
+
+POST {{rinha_backend_24_HostAddress}}/clientes/1/transacoes
+Accept: application/json
+Content-Type: application/json
+
+{
+    "valor": "10000",
+    "tipo": "c",
+    "descricao": "Teste crédito"
+}
+
+###
+
+POST {{rinha_backend_24_HostAddress}}/clientes/1/transacoes
+Accept: application/json
+Content-Type: application/json
+
+{
+    "valor": "10000",
+    "tipo": "d",
+    "descricao": "Teste débito"
+}
+
+###
+
+GET {{rinha_backend_24_HostAddress}}/clientes/1/extrato
+Accept: application/json
+
+###
