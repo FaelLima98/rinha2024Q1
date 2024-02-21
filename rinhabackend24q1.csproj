@@ -5,7 +5,7 @@
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<InvariantGlobalization>true</InvariantGlobalization>
-		<RootNamespace>rinha_backend_24</RootNamespace>
+		<RootNamespace>rinhabackend24q1</RootNamespace>
 		<UserSecretsId>8da7d54e-eef8-4eb8-ab9f-b5662287e929</UserSecretsId>
 		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
 		<DockerfileContext>.</DockerfileContext>

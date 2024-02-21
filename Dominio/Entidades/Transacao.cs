@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-namespace rinha_backend_24.Dominio.Entidades
+namespace rinhabackend24q1.Dominio.Entidades
 {
     [Table("Transacoes")]
     public class Transacao

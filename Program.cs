@@ -1,4 +1,4 @@
-using rinha_backend_24.Endpoints;
+using rinhabackend24q1.Endpoints;
 
 var builder = WebApplication.CreateBuilder(args);
 

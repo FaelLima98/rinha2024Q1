@@ -2,10 +2,10 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Npgsql;
-using rinha_backend_24.Dominio.Entidades;
-using rinha_backend_24.Modelos.Requisicao;
+using rinhabackend24q1.Dominio.Entidades;
+using rinhabackend24q1.Modelos.Requisicao;
 
-namespace rinha_backend_24.Endpoints
+namespace rinhabackend24q1.Endpoints
 {
     public static class EndpointsExtension
     {
